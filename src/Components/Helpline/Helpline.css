@@ -1,0 +1,90 @@
+@media(max-width:460px){
+    .help-wrap{
+        margin-top: 10px;
+        padding: 21px;
+        height: 177px;
+        position: relative;
+        font-family: "Poppins", sans-serif; 
+        padding: 12px;
+    }
+    .help-heading{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 11px; /* Space between text and lines */
+        position: relative;
+        margin-bottom: 20px;
+    }
+    .help-heading h1{
+        font-family: "Inter", serif;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16.8px;
+        color: #545454;
+    }
+    
+    .help-heading::before,
+    .help-heading::after {
+        content: "";
+        flex: 1;
+        height: 2px; /* Line thickness */
+        background-color: #EDEDED; /* Line color */
+    }
+    .help-img{
+        position: absolute;
+        top: -14px;
+        right: 1px;
+        width: 182px;
+        height: 193px;
+    }
+    .text-section{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        gap: 10px;
+    }
+    .text-section h1{
+        color: #000000;
+        font-size: 13.3px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: justify;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+    }
+    .text-section h1 img{
+        width: 21px;
+        height: 21px;
+    }
+    .text-section p{
+        font-weight: 400;
+        font-size: 10px;
+        text-align: justify;
+        color: #111111;
+        line-height: 15px;
+        width: 212px;
+    }
+    .bttn-container{
+        display: flex;
+        gap: 5px;
+    }
+    .bttn-container button{
+        width: 97px;
+        height: 30px;
+        padding: 7px 16px;
+        border-radius: 108px;
+        color: #FFFFFF;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14.48px;
+        border: none;
+    }
+    .chat-bttn{
+        background-color: #2C3F9D;
+    }
+    .call-bttn{
+        background-color: #076FB3;
+    }
+}
